@@ -115,3 +115,51 @@ body {
     margin-bottom: 8px;
     color: #555;
 }
+@media (max-width: 768px) {
+    .perfil {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .foto-perfil {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .info-principal h1 {
+        font-size: 1.8em;
+    }
+    
+    .info-principal h2 {
+        font-size: 1.1em;
+    }
+    
+    .seccion {
+        padding: 20px;
+    }
+    
+    body {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cabecera {
+        padding: 20px;
+    }
+    
+    .info-principal h1 {
+        font-size: 1.6em;
+    }
+    
+    .titulo-seccion {
+        font-size: 1.2em;
+        padding: 10px 15px;
+    }
+    
+    .lista-contacto li, .idiomas li {
+        font-size: 1em;
+    }
+}
+
