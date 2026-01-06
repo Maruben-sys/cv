@@ -1,0 +1,117 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.contenedor-principal {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.cabecera {
+    background: linear-gradient(135deg, #dd5d36 0%, #e97451 100%);
+    color: white;
+    padding: 30px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.info-principal h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.info-principal h2 {
+    font-size: 1.3em;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.resumen p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.seccion {
+    padding: 25px 30px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.titulo-seccion {
+    background-color: #e97451;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.contenido {
+    padding-left: 15px;
+}
+
+.lista-contacto li, .idiomas li {
+    margin-bottom: 10px;
+    font-size: 1.05em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.experiencia, .formacion {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.experiencia h4, .formacion h4 {
+    color: #dd5d36;
+    margin-bottom: 5px;
+    font-size: 1.15em;
+}
+
+.fecha {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.institucion {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.experiencia ul {
+    padding-left: 20px;
+}
+
+.experiencia li {
+    margin-bottom: 8px;
+    color: #555;
+}
